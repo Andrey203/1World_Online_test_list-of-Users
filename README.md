@@ -1,5 +1,9 @@
 # List of users
 
+To run application, after "git clone " enter command:
+ - npm install
+ - npm start
+
 # View
 - [DEMO LINK](https://andrey203.github.io/1World_Online_test_list-of-Users/).
 
