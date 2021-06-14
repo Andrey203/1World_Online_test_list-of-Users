@@ -1,8 +1,5 @@
 # List of users
 
-# Technologies
-- HTML5, SCSS, JS
-
 # View
 - [DEMO LINK](https://Andrey203.github.io/1WorldOnline-test_list-of-Users/).
 
