@@ -1,0 +1,70 @@
+.user-info {
+  position: absolute;
+  padding: 10px;
+  width: 80vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0;
+  background-color: rgb(245, 242, 200);
+  border: 2px solid rgb(95, 95, 95);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 460px) {
+  .user-info {
+    width: 360px;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 540px) {
+  .user-info {
+    font-size: 1.6em;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 720px) {
+  .user-info {
+    width: 480px;
+    font-size: 2em;
+  }
+}
+
+.user-info__name {
+  text-align: center;
+}
+
+
+.user-info__cancel-btn {
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  border-radius: 10%;
+  transform: translateX(-50%);
+  box-shadow: 1px 1px 1px rgb(82, 82, 82),
+    2px 2px 1px rgb(82, 82, 82),
+    3px 3px 1px rgb(82, 82, 82),
+    4px 4px 1px rgb(82, 82, 82);
+  transition: all 0.3s ease-in-out;
+
+  font-size: 1.2em;
+  color: #fff;
+  background-color: rgb(138, 113, 90);
+}
+
+.user-info__cancel-btn:hover {
+  background-color: rgb(180, 149, 120);
+}
+
+.user-info__cancel-btn:active {
+  background-color: rgb(104, 86, 70);
+  box-shadow: inset -1px -1px 1px rgb(82, 82, 82);
+}
+
+.user-info__list {
+  margin-left: 15%;
+}
