@@ -1,7 +1,7 @@
 # List of users
 
 # View
-- [DEMO LINK](https://github.com/Andrey203/1World_Online_test_list-of-Users/).
+- [DEMO LINK](https://Andrey203.github.io/1WorldOnline-test_list-of-Users/).
 
 # Description
 Using HTML + CSS + JavaScript stack Implement a table - a list of users.
