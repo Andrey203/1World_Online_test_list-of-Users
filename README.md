@@ -1,6 +1,6 @@
 # List of users
 
-To run application, after "git clone " enter command:
+To run application, after "git clone " enter commands:
  - npm install
  - npm start
 
